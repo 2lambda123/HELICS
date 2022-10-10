@@ -81,8 +81,6 @@ Installation instructions are available in the [matHELICS repository README](htt
 
 (This will also install helics-cli which is often used to launch HELICS-based co-simulations. If you know you don't want to install helics-cli just do `pip install helics`.)
 
-
-
 ### jHELICS
 
 [Build from source](./build_from_source.md) with the [CMAKE option](./helics_cmake_options.md) `HELICS_BUILD_JAVA_INTERFACE=ON`
@@ -102,6 +100,9 @@ Installation instructions are available in the [matHELICS repository README](htt
 ### spack install
 
 [`spack install helics`](./spack.md)
+
+### Docker
+Not exactly an installation _per se_ but the HELICS project does produce a Docker container for general use; [here's the documentation](./docker.md).
 
 ## HELICS runner
 

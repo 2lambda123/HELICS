@@ -5,6 +5,7 @@
    :maxdepth: 1
 
    style
+   ../user-guide/installation/docker.md
    swig
    tests
    docs
@@ -16,4 +17,5 @@
    ../ROADMAP
    typeConversions
    Notes
+   .
 ```
