@@ -6,6 +6,7 @@
     :maxdepth: 1
 
     C_API
+    rest_queries_api.md
 
 ```
 
