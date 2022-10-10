@@ -1,17 +1,5 @@
 # Generating SWIG extension
 
-**MATLAB**
-
-For the MATLAB extension, you need a special version of SWIG. Get it [here](https://github.com/jaeandersson/swig).
-
-```bash
-git clone https://github.com/jaeandersson/swig
-cd swig
-./configure --prefix=/Users/$(whoami)/local/swig-matlab/ && make -j8 && make install
-```
-
-The matlab interface can be built using HELICS_BUILD_MATLAB_INTERFACE in the CMake build of HELICS. This will use a MATLAB installation to build the interface. See [installation](../user-guide/installation/language.md)
-
 **Octave**
 
 [Octave](https://www.gnu.org/software/octave/) is a free program that works similarly to MATLAB
