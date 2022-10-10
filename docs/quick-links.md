@@ -5,7 +5,6 @@
     :hidden:
     :maxdepth: 1
 
-    404
 
 ```
 
