@@ -37,8 +37,7 @@ ValueFederate::ValueFederate(std::string_view fedName, const FederateInfo& fi):
 }
 ValueFederate::ValueFederate(std::string_view fedName,
                              const std::shared_ptr<Core>& core,
-                             const FederateInfo& fi):
-    Federate(fedName, core, fi)
+                             const FederateInfo& fi): Federate(fedName, core, fi)
 {
     vfManager = std::make_unique<ValueFederateManager>(coreObject.get(),
                                                        this,
