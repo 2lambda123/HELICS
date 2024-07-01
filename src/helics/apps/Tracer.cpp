@@ -63,8 +63,7 @@ namespace apps {
     }
     Tracer::Tracer(std::string_view appName,
                    const std::shared_ptr<Core>& core,
-                   const FederateInfo& fi):
-        App(appName, core, fi)
+                   const FederateInfo& fi): App(appName, core, fi)
     {
         fed->setFlagOption(HELICS_FLAG_OBSERVER);
     }
